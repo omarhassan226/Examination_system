@@ -1,0 +1,134 @@
+#img1{
+    display: inline;
+    position: relative;
+    bottom:-100vh;
+    width: 200px;
+    height: 200px;
+    /* transition: all 200ms; */
+    /* animation: mog 2s 1s; */
+}
+#img2{
+    display: inline;
+    position: relative;
+    bottom:-100vh;
+    width: 200px;
+    height: 200px;
+    /* transition: all 200ms; */
+    /* animation: mog 2s 1s; */
+}
+#img3{
+    display: inline;
+    position: absolute;
+    left: 70%;
+    width: 200px;
+    height: 200px;
+    bottom:-100vh;
+    /* transition: all 200ms; */
+    /* animation: mog 2s 1s; */
+}
+#img4{
+    display: inline;
+    position: absolute;
+    left: 75%;
+    width: 200px;
+    height: 200px;
+    bottom:-100vh;
+    /* transition: all 200ms; */
+    /* animation: mog 2s 1s; */
+}
+#img5{
+    display: inline;
+    position: absolute;
+    left: 40%;
+    width: 200px;
+    height: 200px;
+    bottom:-100vh;
+    /* transition: all 200ms; */
+    /* animation: mog 2s 1s; */
+}
+#img6{
+    display: inline;
+    position: absolute;
+    left: 60%;
+    width: 200px;
+    height: 200px;
+    bottom:-100vh;
+    /* transition: all 200ms; */
+    /* animation: mog 2s 1s; */
+}
+#img7{
+    display: inline;
+    position: absolute;
+    left: 45%;
+    width: 200px;
+    height: 200px;
+    bottom:-100vh;
+    /* transition: all 200ms; */
+    /* animation: mog 2s 1s; */
+}
+#img8{
+    display: inline;
+    position: absolute;
+    left: 55%;
+    width: 200px;
+    height: 200px;
+    bottom:-100vh;
+    /* transition: all 200ms; */
+    /* animation: mog 2s 1s; */
+}
+#img9{
+    display: inline;
+    position: absolute;
+    left: 30%;
+    width: 200px;
+    height: 200px;
+    bottom:-100vh;
+    /* transition: all 200ms; */
+    /* animation: mog 2s 1s; */
+}
+#img10{
+    display: inline;
+    position: absolute;
+    left: 20%;
+    width: 200px;
+    height: 200px;
+    bottom:-100vh;
+    /* transition: all 200ms; */
+    /* animation: mog 2s 1s; */
+}
+.container{
+    position: absolute;
+    left: 33%;
+    top: -100vh;
+}
+@keyframes mog {
+    0%{
+        left: 100px;
+    }
+    35%{
+        right: 50px;
+    }
+    70%{
+        left: 50px;
+    }
+    100%{
+        right: 100px;
+    }
+}
+#img11{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+    opacity: 0;
+    border-radius: 50%;
+    /* border: none; */
+}
+#img12{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 65%;
+    top: 43%;
+    opacity: 0;
+    border-radius: 50%;
+}

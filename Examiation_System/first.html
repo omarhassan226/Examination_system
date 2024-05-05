@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="first.css">
+</head>
+<body>
+
+<div class="overlay"></div>
+
+<div class="main">
+    <div class="heading"><h1>Registration Page</h1></div>
+    <form id="registrationForm" action="second.html" method="get" target="_blank">
+        <label for="FirstName">FirstName: </label>
+        <input type="text" name="FirstName" id="FirstName" autofocus>
+        <div class="fname">Pls Enter Valid Name</div>
+        <div class="numericError">Pls Enter Only Alphabets</div>
+        <br>
+        <label for="LastName">LastName: </label>
+        <input type="text" name="LastName" id="LastName">
+        <div class="lname">Pls Enter Valid Name</div>
+        <div class="numericError2">Pls Enter Only Alphabets</div>
+        <br>
+        <label for="Email">Email: </label>
+        <input type="Email" name="Email" id="Email">
+        <div class="email">Pls Enter Valid Email</div>
+        <br>
+        <label for="Pass1">Password: </label>
+        <input type="password" name="Password" id="Pass1">
+        <div class="pass1">Pls Enter Valid Password</div>
+        <br>
+        <label for="Pass2">Re-Enter Password: </label>
+        <input type="password" name="Re-EnterPassword" id="Pass2">
+        <div class="pass2">This Password Doesn't Match The Password Above</div>
+        <input type="submit" name="submit" id="submit">
+    </form>
+
+</div>
+<script src="first.js"></script>
+</body>
+</html>
