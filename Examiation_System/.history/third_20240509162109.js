@@ -44,9 +44,10 @@ $("#timer").animate(
 var idx = 0;
 var isAllSelected = false;
 //Timer
-var distance = 50*60*100; // tTime in milliseconds
+var distance = 60; // tTime in milliseconds
 var x = setInterval(function() {
   distance -= 1000;
+  //Can't understand it
   var hours = Math.floor(distance % (1000 * 60 * 60 * 60) / (1000 * 60 * 60));
   var minutes = Math.floor(distance % (1000 * 60 * 60) / (1000 * 60));
   var seconds = Math.floor(distance % (1000 * 60) / 1000);

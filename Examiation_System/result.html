@@ -1,32 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Result</title>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <link rel="stylesheet" href="result.css">
-</head>
-<body>
-    <img id="img1" src="./photos/istockphoto-689068372-612x612.jpg" alt="">
-    <img id="img2" src="./photos/istockphoto-689068372-612x612.jpg" alt="">
-    <img id="img3" src="./photos/istockphoto-689068372-612x612.jpg" alt="">
-    <img id="img4" src="./photos/istockphoto-689068372-612x612.jpg" alt="">
-    <img id="img5" src="./photos/istockphoto-689068372-612x612.jpg" alt="">
-    <img id="img6" src="./photos/istockphoto-689068372-612x612.jpg" alt="">
-    <img id="img7" src="./photos/istockphoto-689068372-612x612.jpg" alt="">
-    <img id="img8" src="./photos/istockphoto-689068372-612x612.jpg" alt="">
-    <img id="img9" src="./photos/istockphoto-689068372-612x612.jpg" alt="">
-    <img id="img10" src="./photos/istockphoto-689068372-612x612.jpg" alt="">
-    <img id="img11" src="./photos/871fa9b5c6359a5394dacc6507fab5af.jpg" alt="">
-    <img id="img12" src="./photos/5c4487acd953e3029bcfe27d2e765932.jpg" alt="">
-    <div id="main">
-        <div class="container">
-            <h1 class="welcomeMessage">welcome <span style="color: rgb(242, 41, 41);"></span> <span style="color: rgb(246, 46, 46);"></span> </h1>
-            <h1 class="grade">Your Grade is : <span style="color: rgb(177, 20, 20);"></span>  </h1>
-            <h2 class="bestLuck"><span style="color: rgb(78, 15, 15);"></span>thanks, Wish the best luck for you</h2>
+    <link rel="stylesheet" href="result.css" />
+  </head>
+
+  <body>
+    <div class="dark-overlay"></div>
+    <!-- Add the dark overlay -->
+    <div class="container">
+      <div id="main">
+        <div id="images">
+          <img
+            id="img1"
+            src="./photos/istockphoto-689068372-612x612.jpg"
+            alt=""
+          />
+          <!-- Add more image elements -->
+          <img
+            id="img11"
+            src="./photos/871fa9b5c6359a5394dacc6507fab5af.jpg"
+            alt=""
+          />
+          <img
+            id="img12"
+            src="./photos/5c4487acd953e3029bcfe27d2e765932.jpg"
+            alt=""
+          />
         </div>
+        <h1 class="welcomeMessage">Welcome <span></span> <span></span></h1>
+        <h1 class="grade">Your Grade is: <span></span></h1>
+        <h2 class="bestLuck">Thanks! Wish you the best of luck.</h2>
+      </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="result.js"></script>
-</body>
+  </body>
 </html>
